@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+<div id="Overall">
+    <div id="Block">
+        <div id="Sheet">
+            <div class="Fields">
+                <label>Username</label>
+                <input type="text" class="Inputs" id="Username" value="admin">
+            </div>
+            <div class="Fields">
+                <label>Password</label>
+                <input type="text" class="Inputs" id="Password">
+            </div>
+            <div class="Buttons">
+                <button id="Login" onclick="Authenticate()">Login</button>
+            </div>
+        </div>
+    </div>
+    <div class="Messages" id="Error"></div>
+</div>
+</body>
+<script src="Script.js"></script>
+</html>

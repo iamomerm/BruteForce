@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body
+{
+	background: #f6f9fc;
+	height: 1000px;
+	font-family: 'Indie Flower';
+	font-size: 18px;
+}
+
+#Overall
+{
+	height: 100%;
+}
+
+#Block
+{
+	margin-top: 10%;
+	display: flex;
+	justify-content: center;
+	height: 50%;
+	width: 100%;
+	min-width: 100%;
+}
+
+#Sheet
+{
+	background: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 55%;
+	height: 100%;
+	text-align: center;
+}
+
+.Fields
+{
+	display: flex;
+	justify-content: space-between;
+	width: 60%;
+	align-self: center;
+	margin-top: 15px;
+
+	
+}
+
+.Inputs
+{
+	width: 50%;
+	font-family: 'Indie Flower';
+	font-size: 18px;
+}
+
+.Buttons
+{
+	display: flex;
+	justify-content: center;
+	width: 60%;
+	align-self: center;
+	margin-top: 15px;
+}
+
+#Login
+{
+	background: white;
+	margin-top: 15%;
+	width: 100%;
+	font-family: 'Indie Flower';
+	font-size: 18px;
+	border: gray solid 1px;
+}
+
+#Login:hover
+{
+	background: #f6f9fc;
+	cursor: pointer;
+}
+
+.Messages
+{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	align-self: center;
+}
+
+#Error { color: red; }
